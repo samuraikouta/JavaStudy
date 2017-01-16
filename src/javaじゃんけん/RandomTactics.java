@@ -1,4 +1,4 @@
-package なぜjavaじゃんけん;
+package javaじゃんけん;
 /**
  * ランダムに手を決める戦略クラス。
  */

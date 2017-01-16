@@ -1,4 +1,4 @@
-package なぜjavaじゃんけん;
+package javaじゃんけん;
 
 //じゃんけんのプレイヤーを表すクラス
 

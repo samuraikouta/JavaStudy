@@ -1,4 +1,4 @@
-package なぜjavaじゃんけん;
+package javaじゃんけん;
 
 /**
  * じゃんけんの審判を表すクラス

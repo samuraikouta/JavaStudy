@@ -1,4 +1,4 @@
-package なぜjavaじゃんけん;
+package javaじゃんけん;
 /**
  * じゃんけん戦略インターフェース
  */

@@ -1,18 +1,17 @@
-package なぜjavaじゃんけん;
+package javaじゃんけん;
 /**
- * プレイヤーを継承した山田さんクラス。
+ * プレイヤーを継承した村田さんクラス。
  */
-public class Yamada extends Player{
+public class Murata extends Player{
 	/**
 	 * コンストラクタ
 	 * 
-	 * @param name 名前
+	 * @param  name  名前
 	 */
-	public Yamada(String name){
+	public Murata(String name){
 		//スーパークラスのコンストラクタを呼び出す
 		super(name);
 	}
-	
 	/**
 	 * じゃんけんの手を出す。
 	 * スーパークラスの同名メソッドをオーバーライドしている。
@@ -20,7 +19,7 @@ public class Yamada extends Player{
 	 * @return じゃんけんの手
 	 */
 	public int showHand(){
-		//必ずパーを出す
-		return PAPER;
+		//必ずグーを出す
+		return STONE;
 	}
 }
